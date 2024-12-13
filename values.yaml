@@ -1,0 +1,12 @@
+---
+replicas: 1
+
+image:
+  repository: quay.io/bradfordwagner/base
+  tag: 2.2.2-debian_bullseye
+
+resources:
+  limits:
+    cpu: 50m
+    memory: 50Mi
+
